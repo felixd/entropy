@@ -3,14 +3,19 @@ package main
 import (
 	"crypto/rand"
 	"encoding/binary"
-	"fmt"
 	"os"
-	"os/exec"
+	"flag"
 )
 
 func main() {
-	// Generate 1 million random numbers using crypto/rand
-	randBytes := make([]byte, 8*1000000)
+
+	// Parse the command-line arguments. By default 8 milion bytes are generated
+	var numBytes int
+	flag.IntVar(&numBytes, "n", 8*1000000, "number of bytes to be generated")
+	flag.Parse()
+
+	// Generate 8 million random numbers using crypto/rand
+	randBytes := make([]byte, numBytes)
 	if _, err := rand.Read(randBytes); err != nil {
 		panic(err)
 	}
