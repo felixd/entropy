@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Generate 1 million random numbers using crypto/rand
-	randBytes := make([]byte, 8*16)
+	randBytes := make([]byte, 8*1000000)
 	if _, err := rand.Read(randBytes); err != nil {
 		panic(err)
 	}
@@ -25,13 +25,4 @@ func main() {
 	if err := binary.Write(f, binary.LittleEndian, randBytes); err != nil {
 		panic(err)
 	}
-
-	// Run Dieharder on the binary file
-	cmd := exec.Command("dieharder", "-f", "random.bin", "-a")
-	out, err := cmd.CombinedOutput()
-	if err != nil {
-		panic(err)
-	}
-
-	fmt.Println(string(out))
 }

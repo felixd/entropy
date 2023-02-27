@@ -57,3 +57,7 @@ func main() {
 ```
 
 When you run this program, it will generate 1 million random numbers using the "crypto/rand" package, convert the numbers to a binary file named "random.bin", and then run Dieharder on the binary file with the "-a" option to perform all statistical tests. The results will be printed to the console.
+
+## Author
+
+* Paweł 'felixd' Wojciechowski - [FlameIT - Immersion Cooling](https://flameit.io)
