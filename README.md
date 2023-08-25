@@ -6,6 +6,12 @@ Entropy Playground
 
 Check [go/](go/) directory for Go Lang examples
 
+## Entropy Evaluation
+
+* Webcam/CCTV Random Number Generator results ~100 MB: https://servertest.online/entropy/20230825-185423-3cdd
+* /dev/urandom 4GB (Linux vpn-s 5.4.0-156-generic #173-Ubuntu SMP Tue Jul 11 07:25:22 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux) https://servertest.online/entropy/20230825-134528-9c3c
+* macOS https://servertest.online/entropy/20230825-132329-7d78
+
 ## Other things
 
 * https://servertest.online/entropy
