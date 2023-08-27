@@ -25,6 +25,18 @@ Check [go/](go/) directory for Go Lang examples
 * https://webhome.phy.duke.edu/~rgb/General/dieharder.php
 * https://medium.com/unitychain/provable-randomness-how-to-test-rngs-55ac6726c5a3
 
+
+## Linux Kernel
+
+Since Kernel 5.18 /dev/random and /dev/urandom are the same thing
+
+Finally I have been able to find more explanation on what happened. You can read commit message from Kernel.org explaining situation:
+
+* https://lore.kernel.org/lkml/20220522214457.37108-1-Jason@zx2c4.com/T/#u
+* https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ac2ab99072cce553c78f326ea22d72856f570d88
+* https://www.theregister.com/2022/03/21/new_linux_kernel_has_improved/
+* https://kernelnewbies.org/Linux_5.18#Security
+
 ## Author
 
  * Paweł 'felixd' Wojciechowski - FlameIT - [Immersion Cooling](https://flameit.io)
