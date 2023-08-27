@@ -54,6 +54,12 @@ rngtest: FIPS tests speed: (min=4.608; avg=146.269; max=150.185)Mibits/s
 rngtest: Program run time: 13512568 microseconds
 ```
 
+### Quantum Random
+
+https://pypi.org/project/quantumrandom/
+
+### Since Kernel 5.18
+
 Since Kernel 5.18 /dev/random and /dev/urandom are the same thing
 
 Finally I have been able to find more explanation on what happened. You can read commit message from Kernel.org explaining situation:
