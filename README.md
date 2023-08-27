@@ -26,7 +26,33 @@ Check [go/](go/) directory for Go Lang examples
 * https://medium.com/unitychain/provable-randomness-how-to-test-rngs-55ac6726c5a3
 
 
-## Linux Kernel
+## Linux
+
+### Software
+
+```bash
+sudo apt install rng-tools
+```
+
+```bash
+felixd@vpn-s:~/rng/linux-ent$ cat /dev/random | rngtest --blockcount=100000
+rngtest 5
+Copyright (c) 2004 by Henrique de Moraes Holschuh
+This is free software; see the source for copying conditions.  There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+rngtest: starting FIPS tests...
+rngtest: bits received from input: 2000000032
+rngtest: FIPS 140-2 successes: 99925
+rngtest: FIPS 140-2 failures: 75
+rngtest: FIPS 140-2(2001-10-10) Monobit: 10
+rngtest: FIPS 140-2(2001-10-10) Poker: 11
+rngtest: FIPS 140-2(2001-10-10) Runs: 27
+rngtest: FIPS 140-2(2001-10-10) Long run: 28
+rngtest: FIPS 140-2(2001-10-10) Continuous run: 0
+rngtest: input channel speed: (min=5.116; avg=4125.041; max=19073.486)Mibits/s
+rngtest: FIPS tests speed: (min=4.608; avg=146.269; max=150.185)Mibits/s
+rngtest: Program run time: 13512568 microseconds
+```
 
 Since Kernel 5.18 /dev/random and /dev/urandom are the same thing
 
