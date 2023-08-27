@@ -8,7 +8,10 @@ Check [go/](go/) directory for Go Lang examples
 
 ## Online Services
 
+* http://holdenc.altervista.org/avalanche/
+* https://betrusted.io/avalanche-noise.html
 
+* https://en.wikipedia.org/wiki/RDRAND
 
 ## Entropy Evaluation
 
