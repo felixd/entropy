@@ -10,6 +10,7 @@ Check [go/](go/) directory for Go Lang examples
 
 * https://www.fourmilab.ch/hotbits/secure_generate.html
 * https://www.fourmilab.ch/hotbits/statistical_testing/stattest.html
+* https://qrng.physik.hu-berlin.de/
 
 ## Hardware TRNG / Generators
 
