@@ -15,6 +15,7 @@ Check [go/](go/) directory for Go Lang examples
 
 * http://holdenc.altervista.org/avalanche/
 * https://betrusted.io/avalanche-noise.html
+* https://github.com/jongrover/true-random
 
 ### vanheusden.com
 
