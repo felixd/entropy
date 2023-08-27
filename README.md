@@ -39,6 +39,13 @@ More explanation: https://lwn.net/Articles/884875/
 * https://www.theregister.com/2022/03/21/new_linux_kernel_has_improved/
 * https://kernelnewbies.org/Linux_5.18#Security
 
+### Monitoring
+
+```bash
+[root@server]# echo 1 > /sys/kernel/debug/tracing/events/syscalls/sys_enter_getrandom/enable
+[root@server]# cat /sys/kernel/debug/tracing/trace_pipe 
+```
+
 ## Author
 
  * Paweł 'felixd' Wojciechowski - FlameIT - [Immersion Cooling](https://flameit.io)
