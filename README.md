@@ -37,7 +37,10 @@ Check [go/](go/) directory for Go Lang examples
 * Webcam/CCTV Random Number Generator results ~100 MB: https://servertest.online/entropy/20230825-185423-3cdd
 * /dev/urandom 4GB (Linux vpn-s 5.4.0-156-generic #173-Ubuntu SMP Tue Jul 11 07:25:22 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux) https://servertest.online/entropy/20230825-134528-9c3c
 * macOS https://servertest.online/entropy/20230825-132329-7d78
-* Quantum Device (1GB file: https://servertest.online/entropy/20230827-115443-4324
+
+* 8 GB file from Raspberry Pi (HWRNG) https://random.flameit.io https://servertest.online/entropy/20230828-142930-3f30
+* 1 GB Quantum Device (EU university): https://servertest.online/entropy/20230827-115443-4324
+* 8 GB Quantum Device (EU university): https://servertest.online/entropy/20230828-160630-5912
 
 ## Weak RNG (Widespread Weak Keys in Network Devices)
 
