@@ -8,6 +8,7 @@ Check [go/](go/) directory for Go Lang examples
 
 ## Online Entropy Sources
 
+* Our service https://random.flameit.io
 * https://www.fourmilab.ch/hotbits/secure_generate.html
 * https://www.fourmilab.ch/hotbits/statistical_testing/stattest.html
 * https://qrng.physik.hu-berlin.de/
