@@ -118,8 +118,8 @@ More explanation: https://lwn.net/Articles/884875/
 ### Monitoring
 
 ```bash
-[root@server]# echo 1 > /sys/kernel/debug/tracing/events/syscalls/sys_enter_getrandom/enable
-[root@server]# cat /sys/kernel/debug/tracing/trace_pipe 
+echo 1 > /sys/kernel/debug/tracing/events/syscalls/sys_enter_getrandom/enable
+cat /sys/kernel/debug/tracing/trace_pipe 
 ```
 
 ## Author
