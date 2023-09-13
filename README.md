@@ -43,6 +43,8 @@ Check [go/](go/) directory for Go Lang examples
 * 1 GB Quantum Device (EU university): https://servertest.online/entropy/20230827-115443-4324
 * 8 GB Quantum Device (EU university): https://servertest.online/entropy/20230828-160630-5912
 
+* https://rsmith.home.xs4all.nl/howto/fun-with-encryption-and-randomness.html
+
 ## Weak RNG (Widespread Weak Keys in Network Devices)
 
 * https://factorable.net/
